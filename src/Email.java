@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Email{
     String firstName;
-    String lastname;
+    String lastName;
     String password;
     String department;
     int mailboxCapacity = 500;
@@ -16,7 +16,7 @@ class Email{
     //Constructor to receive the firstname and lastname
     public Email(String firstName, String lastName) {
         this.firstName = firstName;
-        this.lastname = lastName;
+        this.lastName = lastName;
 //        System.out.println("Email CREATED: " + this.firstName + " " + this.lastname);
 
 
@@ -96,7 +96,7 @@ class Email{
     }
 
     public String showInfo(){
-        return "\nDisplay Name: " + firstName + " " + lastname + "" + "\nCompany Email: " + email + "\nMail Box Capacity: " + mailboxCapacity + "mb";
+        return "\nDisplay Name: " + firstName + " " + lastName + "" + "\nCompany Email: " + email + "\nMail Box Capacity: " + mailboxCapacity + "mb";
     }
 }
 

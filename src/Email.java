@@ -39,7 +39,7 @@ class Email{
 
     //Ask for the department
     private String setDepartment(){
-        System.out.print("New worker: " + firstName + " . Enter the DEPARTMENT CODES\n1 for Sales\n2 for Development\n3 for Accounting\n0 for none\nEnter department code:");
+        System.out.print("New worker: " + firstName + " . Enter the  DEPARTMENT CODES\n1 for Sales\n2 for Development\n3 for Accounting\n0 for none\nEnter department code:");
         Scanner in = new Scanner(System.in);
         int depChoice = in.nextInt();
         if (depChoice == 1){

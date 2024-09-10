@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Email eml = new Email("Mary", "Kwawu");
 
+        System.out.println(eml.showInfo());
+
 
     }
 }
